@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> Cadastro </title>
+	</head>
+<style>
+body{
+	font-family: Arial,Helvetica,sans-serif;
+	background-image:linear-gradient(45deg,cyan,lightsteelblue);
+}
+div{
+	background-color:rgba(0,0,0,0.7);
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	padding:80px;
+	border-radius:15px;
+	color:white;
+}
+
+input{
+	padding:15px;
+	border:none;
+	outline:none;
+	font-size:15px;
+}
+
+</style>
+
+	<body>
+<div>
+		<form name = "form1" action= "grava.jsp" method="post">
+<h2>Cadastro</h2>
+			Nome:
+			<input type="text" name="txtnome"> <br/><br>
+
+			Email:
+			<input type="text" name="txtemail"> <br/><br>
+			Senha:
+			<input type="password" name="txtsenha"> <br/> <br>
+			Endereço
+			<input type="text" name="txtendereco"> <br/><br>
+			Telefone:
+			<input type="text" name="txttelefone"> <br/><br>
+
+
+			<input type="submit" value="Gravar"> <br/>
+		</form>
+</div>
+
+	</body>
+
+
+</html>

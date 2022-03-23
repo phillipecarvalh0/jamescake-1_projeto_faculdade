@@ -1,0 +1,58 @@
+body::after{
+    background-image: url("fundo.jpg");  
+    background-repeat: no-repeat;
+    opacity: 0.3;
+}
+h1 {
+    text-align: center;
+}
+header{
+    margin-left: auto;
+}
+#img1{
+    height:170px;
+    width:190px;
+    float:left
+    
+}
+#img2{
+    height:170px;
+    width:190px;
+    float: center;
+    margin-left: 380px;
+}
+#img3{
+    height:170px;
+    width:190px;
+    float: right;
+}
+nav{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    border: solid 1px black;
+
+}  
+footer{
+    background-color:lemonchiffon;
+    width: auto;
+    height: 165px;
+    clear: both;
+}
+#insta{
+    height:50px ;
+    width:50px ;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+#gmail{
+    height:50px ;
+    width:50px ;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+h5 {
+    margin-left: 300px;
+    
+}
